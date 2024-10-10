@@ -1,0 +1,54 @@
+nav ul li a:hover{
+    color:black !important;
+}
+
+body{
+    font-family:'Poppins' ,sans-serif !important;
+}
+
+.hr{
+    border: 0;
+    /* font-size: 10px; */
+    height: 1px;
+    background-color: black;
+    opacity: 1;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+input::placeholder{
+    color: red !important;
+}
+
+.cardbg{
+    background-color: #f7efe5;
+    border: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.about-text{
+    text-align: justify;
+}
+
+.mycard{
+    transition: 0.5s ease;
+}
+
+.mycard:hover{
+    margin-top: -25px;
+}
+
+.zoom-in div{
+    overflow: hidden;
+}
+
+.zoom-in div img{
+    transition: 0.5s ease;
+}
+
+.zoom-in:hover div img{
+    transform: scale(1.1);
+}
